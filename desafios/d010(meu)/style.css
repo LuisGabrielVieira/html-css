@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('pacote-projeto/fontes/idroid.otf') format('opentype');
+}
+body{
+    background-color: lightgreen;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: darkgreen;
+    background-image: linear-gradient(to bottom , green, rgb(2, 68, 2));
+    color: white;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+header > p{
+     text-align: center;    
+}
+nav > a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+main{
+    background-color: white;
+    margin: 0px 100px 50px 100px;
+    padding: 10px;
+}
+div#extra{
+    background-color: lightgreen;
+    padding: 0px;   
+}
+h3{
+   background-color: darkgreen;
+   padding: 10px;
+   margin: 0px 0px 10px 0px;
+   border-top-right-radius: 5%;
+   border-top-left-radius: 5%;
+}
+div > p{
+     padding: 10px;   
+}
+h2{
+    font-family: 'idroid';
+    color: green;
+    background-image: linear-gradient(to right, lightgreen , white);
+    padding-left: 10px;
+}
+h1{
+    font-family: 'idroid';
+    color: green;
+    font-size: 30px;
+}
+div#video{
+    height: 400px;
+    background-color: darkgreen;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: darkgreen;
+    text-align: center;
+    padding: 0.5px;
+}
+footer > p{
+    display: inline-block;
+    color: white;
+}
+p#link{
+    font-size: 1.5em;
+}
+p a{
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+    transition-duration: 1s;
+}
